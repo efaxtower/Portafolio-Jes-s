@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Jesús Pérez - Soporte Técnico y Redes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f4f7fc;
+            color: #1e2a3e;
+            line-height: 1.5;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 2rem 1.8rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #1E3C72, #2A5298);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.3rem;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #2c5a6e;
+            border-left: 4px solid #2A5298;
+            padding-left: 1rem;
+            margin: 0.7rem 0 1.8rem 0;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin: 1.8rem 0 1rem 0;
+            color: #0f2b3d;
+            border-bottom: 3px solid #e0eef5;
+            padding-bottom: 0.4rem;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin: 1.2rem 0 0.5rem 0;
+            color: #1f4973;
+        }
+
+        .servicio {
+            background: #f9fafc;
+            padding: 1rem 1.2rem;
+            margin: 1rem 0;
+            border-radius: 20px;
+            border-left: 5px solid #2A5298;
+            transition: all 0.2s;
+        }
+
+        .precio {
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: #1d6f2e;
+            margin: 0.4rem 0 0.2rem;
+        }
+
+        .nota {
+            background: #eef2fa;
+            padding: 0.7rem 1rem;
+            border-radius: 16px;
+            font-size: 0.9rem;
+            margin: 1rem 0;
+            color: #2c3e50;
+        }
+
+        .lista {
+            margin: 0.7rem 0 0.7rem 1.5rem;
+        }
+
+        .contacto {
+            background: #e9f0f5;
+            padding: 1.5rem;
+            border-radius: 24px;
+            margin: 2rem 0 1rem;
+            text-align: center;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #25D366;
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-top: 0.8rem;
+            transition: all 0.2s;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            background: #1da15c;
+            transform: scale(1.02);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #6c86a3;
+            border-top: 1px solid #dee6ef;
+            padding-top: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Jesús Pérez</h1>
+    <div class="tagline">Soporte técnico · Redes · Mantenimiento de equipos</div>
+
+    <p><strong>Soluciones prácticas</strong> sin rodeos ni tecnicismos innecesarios. Experiencia sobre el terreno resolviendo problemas reales en colegios, casas y pequeños negocios. <strong>Sin títulos inflados, con resultados.</strong></p>
+
+    <!-- SECCIÓN PRINCIPAL: REDES Y ROUTER -->
+    <h2>🔐 Redes y control de WiFi</h2>
+    <div class="servicio">
+        <strong>📡 Filtrado por MAC (lista blanca)</strong><br>
+        ¿Que los estudiantes o vecinos se roban el internet? Configuro el router para que <strong>solo se conecten los dispositivos autorizados</strong> (profesores, administrativos, equipos de dirección).
+        <div class="precio">💰 $25 USD</div>
+        <div class="nota">
+            ✔ Incluye: recolección de hasta 20 MAC + configuración + prueba.<br>
+            ❌ Si tengo que recolectar las MAC una por una (dispositivo por dispositivo): <strong>$35 USD</strong>.<br>
+            ➕ Agregar un nuevo dispositivo después: <strong>$5 por vez</strong>.
+        </div>
+    </div>
+
+    <div class="servicio">
+        <strong>📱 Consultoría y asesoría en redes</strong><br>
+        Te explico lo que necesita tu escuela o negocio sin venderte cosas innecesarias. Uso compartido, redes de invitados, puntos de acceso.
+        <div class="precio">Desde $10 USD por sesión corta</div>
+    </div>
+
+    <!-- OTROS SERVICIOS TÉCNICOS -->
+    <h2>⚙️ Mantenimiento y reparación de PCs</h2>
+    <div class="servicio">
+        <strong>🧹 Mantenimiento preventivo (limpieza + revisión)</strong><br>
+        Eliminación de polvo interno, cambio de pasta térmica, revisión de ventiladores y temperaturas.
+        <div class="precio">$12 USD (equipo de escritorio) / $10 USD (laptop)</div>
+    </div>
+
+    <div class="servicio">
+        <strong>💿 Formateo e instalación de Windows</strong><br>
+        Dejo tu equipo como nuevo: Windows actualizado, drivers, navegadores y programas básicos. Respaldo de archivos si es necesario.
+        <div class="precio">$12 USD</div>
+        <div class="nota">Incluye instalación de Office, antivirus esencial y configuraciones de privacidad.</div>
+    </div>
+
+    <div class="servicio">
+        <strong>🖨️ Impresoras y periféricos</strong><br>
+        Configuración de impresoras en red (USB o WiFi), solución del famoso "no imprime", controladores y escáner.
+        <div class="precio">$7 - $10 USD según la complejidad</div>
+    </div>
+
+    <div class="servicio">
+        <strong>🔧 Diagnóstico de hardware (sin reparación electrónica de placa)</strong><br>
+        Revisión de discos duros, memorias RAM, fuentes de poder, pantallas rotas (cambio básico de piezas).
+        <div class="precio">$8 USD por diagnóstico</div>
+    </div>
+
+    <!-- ¿POR QUÉ JESÚS? -->
+    <h2>✅ ¿Por qué confiar?</h2>
+    <ul class="lista">
+        <li>➕ Experiencia práctica resolviendo casos reales (no teoría sin calle).</li>
+        <li>➕ Atención clara: te digo qué se puede hacer y qué no.</li>
+        <li>➕ Precios fijos desde el inicio, sin letras chiquitas.</li>
+        <li>➕ <strong>No regalo el "saber cómo"</strong>, doy soluciones funcionando. Así puedo seguir ayudándote después.</li>
+    </ul>
+
+    <!-- FORMAS DE TRABAJO -->
+    <h2>📌 Detalles importantes</h2>
+    <ul class="lista">
+        <li>Los precios son en USD o su equivalente en bolívares a la tasa del día.</li>
+        <li>Para colegios o instituciones públicas se puede conversar pago parcial por adelantado.</li>
+        <li>El servicio de filtro MAC incluye una explicación breve de uso para el director, <strong>sin revelar la configuración interna del router</strong> (por seguridad y profesionalismo).</li>
+    </ul>
+
+    <!-- CONTACTO CON WHATSAPP -->
+    <div class="contacto">
+        <strong>📱 Contáctame directamente</strong><br>
+        <p style="margin: 10px 0;">Escríbeme por WhatsApp y coordinamos el servicio sin compromiso.</p>
+        <a href="https://wa.me/584129952268" class="btn-whatsapp">
+            💬 Escríbeme por WhatsApp
+        </a>
+        <div style="margin-top: 12px; font-size: 0.85rem;">Haz clic y automáticamente se abre el chat conmigo.</div>
+    </div>
+
+    <footer>
+        Jesús Pérez – Soporte técnico independiente<br>
+        Aprendizaje constante + práctica real.<br>
+        “No vendo humo, vendo trabajo que funciona”.
+    </footer>
+</div>
+</body>
+</html>
